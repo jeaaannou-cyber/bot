@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LV builds digital systems that move at the speed of your ambition.">
+  <title>LV — Digital systems, built sharp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <nav class="shell nav" aria-label="Main navigation">
+      <a href="#top" class="font-display logo">[LV]<span class="lime">.</span></a>
+      <div class="nav-links"><a href="#services" data-i18n="navServices"></a><a href="#work" data-i18n="navWork"></a><a href="#approach" data-i18n="navApproach"></a></div>
+      <div class="nav-actions"><button id="language-toggle" class="lang-switch" type="button">AR</button><a href="#contact" class="outline-button" data-i18n="navContact"></a><button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+    </nav>
+    <div id="mobile-menu" class="shell mobile-menu"><a href="#services" data-i18n="navServices"></a><a href="#work" data-i18n="navWork"></a><a href="#approach" data-i18n="navApproach"></a><a href="#contact" data-i18n="navContact"></a></div>
+  </header>
+
+  <main id="top">
+    <section class="hero grid-lines">
+      <div class="shell hero-inner">
+        <div class="reveal"><p class="eyebrow" data-i18n="eyebrow"></p><h1 class="font-display" data-i18n="heroTitle"></h1><p class="lead" data-i18n="heroLead"></p><div class="actions"><a class="primary-button" href="#services"><span data-i18n="explore"></span> ↓</a><a class="outline-button" href="#contact"><span data-i18n="orderNow"></span> ↗</a></div></div>
+        <div class="hero-art reveal" aria-hidden="true"><div class="orbit"></div><div class="orbit small"></div><div class="signal-card"><div class="signal-top"><span>LV / 001</span><span data-i18n="signal"></span></div><div class="signal-bottom"><span class="font-display signal-mark">∞</span><span class="signal-note" data-i18n="signalNote"></span></div></div></div>
+      </div>
+      <div class="marquee-wrap"><div class="marquee"><span data-i18n="marquee"></span><span data-i18n="marquee"></span></div></div>
+    </section>
+
+    <section id="services" class="shell section"><div class="section-heading reveal"><div><p class="eyebrow orange" data-i18n="servicesEyebrow"></p><h2 class="font-display" data-i18n="servicesTitle"></h2></div><p data-i18n="servicesLead"></p></div><div class="service-grid">
+      <article class="service-card reveal"><div class="service-top"><span class="service-icon">◈</span><span class="service-number">01</span></div><h3 class="font-display" data-i18n="discordTitle"></h3><p data-i18n="discordText"></p><div class="service-bottom"><span data-i18n="from120"></span><button class="order-button" data-order="discordTitle" type="button" data-i18n="orderNow"></button></div></article>
+      <article class="service-card reveal"><div class="service-top"><span class="service-icon">➤</span><span class="service-number">02</span></div><h3 class="font-display" data-i18n="telegramTitle"></h3><p data-i18n="telegramText"></p><div class="service-bottom"><span data-i18n="from150"></span><button class="order-button" data-order="telegramTitle" type="button" data-i18n="orderNow"></button></div></article>
+      <article class="service-card reveal"><div class="service-top"><span class="service-icon">▱</span><span class="service-number">03</span></div><h3 class="font-display" data-i18n="webTitle"></h3><p data-i18n="webText"></p><div class="service-bottom"><span data-i18n="from300"></span><button class="order-button" data-order="webTitle" type="button" data-i18n="orderNow"></button></div></article>
+      <article class="service-card reveal"><div class="service-top"><span class="service-icon">⌘</span><span class="service-number">04</span></div><h3 class="font-display" data-i18n="otherTitle"></h3><p data-i18n="otherText"></p><div class="service-bottom"><span data-i18n="letsTalk"></span><button class="order-button" data-order="otherTitle" type="button" data-i18n="orderNow"></button></div></article>
+    </div></section>
+
+    <section id="work" class="work-section"><div class="shell section"><div class="section-heading reveal"><div><p class="eyebrow orange" data-i18n="workEyebrow"></p><h2 class="font-display" data-i18n="workTitle"></h2></div><p data-i18n="workHint"></p></div><div class="work-grid"><a class="work-card reveal" href="#contact"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=85" alt="Retro computer setup"><div class="work-overlay"></div><div class="work-copy"><p data-i18n="arcadeType"></p><h3 class="font-display" data-i18n="arcadeTitle"></h3></div></a><a class="work-card reveal" href="#contact"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=85" alt="Graphic design tools on a desk"><div class="work-overlay"></div><div class="work-copy"><p class="orange" data-i18n="nocturneType"></p><h3 class="font-display" data-i18n="nocturneTitle"></h3></div></a></div></div></section>
+
+    <section id="approach" class="shell section"><div class="why-grid"><div class="reveal"><p class="eyebrow orange" data-i18n="approachEyebrow"></p><h2 class="font-display" data-i18n="approachTitle"></h2></div><div class="benefits reveal"><div class="benefit"><span class="font-display benefit-number">01</span><h3 class="font-display" data-i18n="reliable"></h3><p data-i18n="reliableText"></p></div><div class="benefit"><span class="font-display benefit-number">02</span><h3 class="font-display" data-i18n="fast"></h3><p data-i18n="fastText"></p></div><div class="benefit"><span class="font-display benefit-number">03</span><h3 class="font-display" data-i18n="support"></h3><p data-i18n="supportText"></p></div></div></div></section>
+
+    <section id="contact" class="contact-section"><div class="shell section contact-grid"><div class="reveal"><p class="eyebrow" data-i18n="contactEyebrow"></p><h2 class="font-display" data-i18n="contactTitle"></h2><p class="lead" data-i18n="contactLead"></p></div><form id="contact-form" class="contact-form reveal"><label for="name" data-i18n="nameLabel"></label><input id="name" required data-i18n-placeholder="namePlaceholder"><label for="email" data-i18n="emailLabel"></label><input id="email" type="email" required data-i18n-placeholder="emailPlaceholder"><label for="brief" data-i18n="briefLabel"></label><textarea id="brief" rows="3" required data-i18n-placeholder="briefPlaceholder"></textarea><button class="dark-button" type="submit"><span data-i18n="send"></span> ↗</button><p id="form-status" class="form-status" hidden></p></form></div></section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-inner"><a href="#top" class="font-display logo">[LV]<span class="lime">.</span></a><p data-i18n="footer"></p><div class="footer-links"><a href="#contact">Discord</a><a href="#contact">Telegram</a><a href="#contact">WhatsApp</a></div></div></footer>
+
+  <div id="order-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true"><div class="modal"><div class="modal-header"><div><p class="eyebrow orange" data-i18n="modalTitle"></p><h2 id="modal-service" class="font-display"></h2></div><button id="modal-close" class="close-modal" type="button">✕</button></div><p class="modal-copy" data-i18n="modalLead"></p><div class="contact-options"><a id="whatsapp-link" class="contact-option" href="#" target="_blank" rel="noreferrer"><span data-i18n="whatsapp"></span> ↗</a><a id="discord-link" class="contact-option" href="#" target="_blank" rel="noreferrer"><span data-i18n="discord"></span> ↗</a><a id="telegram-link" class="contact-option" href="#" target="_blank" rel="noreferrer"><span data-i18n="telegram"></span> ↗</a></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
