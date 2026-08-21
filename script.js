@@ -1,6 +1,6 @@
 // Replace these values with the agency's real contact destinations.
 const CONTACT_LINKS = {
-  whatsapp: 'https://wa.me/07707001912',
+  whatsapp: 'https://wa.me/+9647707001912',
   discord: 'https://discord.gg/KbRtWqx6c',
   telegram: 'https://t.me/+K444U2GuuoRjN2Iy'
 };
